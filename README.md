@@ -11,8 +11,10 @@ To use this project, follow these steps:
 
 Clone the repository to your local machine:
 bash
-Copy code
+
 git clone https://github.com/yourusername/leaflet-map-example.git
+
+
 Open the index.html file in your web browser.
 🔧 Dependencies
 This project relies on the Leaflet JavaScript library, which is included via a CDN link in the HTML file.
@@ -33,8 +35,9 @@ This project relies on the Leaflet JavaScript library, which is included via a C
 
 Клонируйте репозиторий на ваш компьютер:
 bash
-Copy code
+
 git clone https://github.com/yourusername/leaflet-map-example.git
+
 Откройте файл index.html в вашем веб-браузере.
 🔧 Зависимости
 Этот проект зависит от библиотеки JavaScript Leaflet, которая подключается через CDN ссылку в HTML файле.
