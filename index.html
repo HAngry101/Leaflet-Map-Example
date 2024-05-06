@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map Example</title>
+    <!-- Include Leaflet styles -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Set styles and dimensions for the map container -->
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Create a container for the map -->
+    <div id="map"></div>
+
+    <!-- Include Leaflet library -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([51.505, -0.09], 13); // Set the center and zoom level of the map
+
+        // Add OpenStreetMap (OSM) tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Add a marker to the map
+        var marker = L.marker([51.5, -0.09]).addTo(map);
+
+        // Add a popup with information when clicking on the marker
+        marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+    </script>
+</body>
+</html>
