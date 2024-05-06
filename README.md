@@ -2,6 +2,9 @@
 
 This is a simple example of creating an interactive map using the Leaflet JavaScript library.
 
+![image](https://github.com/HAngry101/Leaflet-Map-Example/assets/168013853/06b104d3-d548-4180-820f-6374ea750e1f)
+
+
 <h2>Demo: https://hangry101.github.io/Leaflet-Map-Example/</h2>
 
 ## 🌟 Features
